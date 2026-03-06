@@ -79,39 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
         yearSpan.textContent = new Date().getFullYear();
     }
 
-    // 6. Form Validation
-    const contactForm = document.getElementById('contact-form');
-    if (contactForm) {
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            // Basic validation check
-            let isValid = true;
-            const requiredFields = contactForm.querySelectorAll('[required]');
-
-            requiredFields.forEach(field => {
-                if (!field.value.trim()) {
-                    isValid = false;
-                    field.classList.add('border-red-500');
-                } else {
-                    field.classList.remove('border-red-500');
-                }
-            });
-
-            if (isValid) {
-                const btn = contactForm.querySelector('button[type="submit"]');
-                const originalText = btn.textContent;
-                btn.textContent = 'Enviando...';
-                btn.disabled = true;
-
-                setTimeout(() => {
-                    alert('Mensagem enviada com sucesso! Em breve entraremos em contato.');
-                    contactForm.reset();
-                    btn.textContent = originalText;
-                    btn.disabled = false;
-                }, 1500);
-            }
-        });
-    }
+    // 6. Form Validation - Handled inline in contato.html for better performance
 
     // 7. Lazy Loading Images
     if ('loading' in HTMLImageElement.prototype) {

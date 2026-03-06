@@ -298,6 +298,12 @@
                         <div id="form-messages" class="hidden mb-4 p-4 rounded-lg text-sm font-bold text-center"></div>
                         <form id="contact-form" action="/enviar-contato.php" method="POST"
                             class="space-y-4 relative z-10">
+                            <!-- Honeypot anti-spam (invisível para humanos) -->
+                            <div style="display: none;">
+                                <label for="website_url">Não preencha este campo se você for humano:</label>
+                                <input type="text" id="website_url" name="website_url" tabindex="-1" autocomplete="off">
+                            </div>
+
                             <div>
                                 <label for="nome" class="block text-sm font-medium text-slate-300 mb-1">Nome
                                     Completo</label>

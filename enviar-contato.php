@@ -1,11 +1,19 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Collect post data
+    $honeypot = $_POST["website_url"] ?? "";
     $nome = strip_tags(trim($_POST["nome"]));
     $telefone = strip_tags(trim($_POST["telefone"]));
     $bairro = strip_tags(trim($_POST["bairro"]));
     $servico = strip_tags(trim($_POST["servico"]));
     $mensagem = strip_tags(trim($_POST["mensagem"]));
+
+    // Check honeypot (if filled, it's a bot)
+    if (!empty($honeypot)) {
+        http_response_code(200); // Send 200 to trick the bot into thinking it succeeded
+        echo "Obrigado! Sua mensagem foi enviada com sucesso.";
+        exit;
+    }
 
     // Validations
     if (empty($nome) || empty($telefone)) {
