@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eletricista 24 Horas em Belo Horizonte (BH) | Imediato</title>
+    <meta name="description"
+        content="Atendimento emergencial imediato para residências, comércios e condomínios em BH. Se acabou a luz ou o disjuntor caindo, ligue 24h.">
+    <link rel="canonical" href="https://bheletricista.com.br/eletricista-24-horas-bh.html">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="service">
+    <meta property="og:url" content="https://bheletricista.com.br/eletricista-24-horas-bh.html">
+    <meta property="og:title" content="Eletricista 24 Horas em Belo Horizonte (BH) | Imediato">
+    <meta property="og:description"
+        content="Atendimento emergencial imediato para residências, comércios e condomínios em BH. Chegamos em minutos para resolver curto-circuitos e falta de luz.">
+    <meta property="og:image" content="https://bheletricista.com.br/assets/img/logo.jpg">
+    <meta property="og:locale" content="pt_BR">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Eletricista 24 Horas em Belo Horizonte (BH) | Imediato">
+    <meta name="twitter:description"
+        content="Socorro elétrico urgente em BH. Atendimento 24h para emergências residenciais e comerciais. Ligue agora!">
+    <meta name="twitter:image" content="https://bheletricista.com.br/assets/img/logo.jpg">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Eletricista 24 Horas Belo Horizonte",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "BH Eletricista",
+        "telephone": "+5531998955912",
+        "url": "https://bheletricista.com.br"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Belo Horizonte"
+      },
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://wa.me/5531998955912",
+        "servicePhone": "+5531998955912"
+      },
+      "description": "Atendimento elétrico emergencial rápido 24 horas por dia em BH. Especialista em curto-circuito, disjuntor desarmando e queda de energia."
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://bheletricista.com.br/index.html"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Eletricista 24 Horas em Belo Horizonte (BH)",
+            "item": "https://bheletricista.com.br/eletricista-24-horas-bh.html"
+        }
+    ]
+}
+    </script>
+    <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+    <link rel="apple-touch-icon" href="/assets/img/favicon.png">
+</head>
+
+<body class="bg-gray-50 text-slate-900 font-sans antialiased flex flex-col min-h-screen">
+    <!-- Header -->
+
+    <!-- GLOBAL HEADER (PREMIUM UX) -->
+    <header
+        class="bg-slate-950 glass-header sticky top-0 z-50 border-b border-white/10 shadow-lg text-white transition-all duration-300">
+        <div class="container mx-auto px-4 py-3 md:py-4 flex justify-between items-center">
+            <a href="/" class="flex items-center gap-2 group">
+                <span class="text-3xl text-amber-500 transition-transform group-hover:scale-110">⚡</span>
+                <div class="flex flex-col">
+                    <span class="text-xl md:text-2xl font-black tracking-tight leading-none">BH<span
+                            class="text-amber-500">Eletricista</span></span>
+                    <span
+                        class="text-[10px] md:text-xs text-slate-400 font-medium uppercase tracking-widest hidden sm:block">Engenharia
+                        & Serviços</span>
+                </div>
+            </a>
+
+            <div class="flex items-center gap-6">
+                <nav class="hidden md:flex gap-6 text-sm font-semibold text-slate-300">
+                    <a href="/eletricista-residencial-bh.html" class="hover:text-amber-400 transition">Residencial</a>
+                    <a href="/eletricista-comercial-bh.html" class="hover:text-amber-400 transition">Comercial</a>
+                    <a href="/padrao-cemig-bh.html" class="hover:text-amber-400 transition">Padrão CEMIG</a>
+                </nav>
+                <a href="https://wa.me/5531998955912"
+                    class="btn-pulse btn-glow bg-amber-500 hover:bg-amber-400 text-slate-950 px-5 md:px-6 py-2 md:py-2.5 rounded-full font-bold transition-all flex items-center gap-2 text-sm md:text-base">
+                    <span class="hidden sm:inline">Plantão</span> 24H
+                </a>
+                <button id="mobile-menu-btn" class="md:hidden text-white focus:outline-none ml-3">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke="linecap" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- BREADCRUMB UI -->
+    <nav class="bg-slate-100 border-b border-slate-200 py-3" aria-label="Breadcrumb">
+        <div class="container mx-auto px-4">
+            <ol class="flex flex-wrap items-center gap-2 text-xs md:text-sm font-semibold text-slate-500">
+
+                <li class="flex items-center gap-2">
+
+                    <a href="/" class="hover:text-cyan-600 transition">Home</a>
+                </li>
+
+                <li class="flex items-center gap-2">
+                    <span class="text-slate-300">/</span>
+                    <span class="text-slate-800">Eletricista 24 Horas em Belo Horizonte (BH)</span>
+                </li>
+
+            </ol>
+        </div>
+    </nav>
+
+
+
+    <!-- BLOCO 1 - HERO -->
+    <section class="py-20 bg-slate-800 text-white text-center relative border-b-8 border-red-600">
+        <div class="container mx-auto px-4 fade-up z-10 relative">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4 text-white">Eletricista 24 Horas em <span
+                    class="text-yellow-500">Belo Horizonte (BH)</span></h1>
+            <p class="text-xl mx-auto mb-6 text-gray-200 font-bold max-w-3xl">Atendimento emergencial imediato para
+                residências, comércios e condomínios em BH.</p>
+            <p class="text-lg max-w-3xl mx-auto mb-10 text-gray-400">Problemas elétricos não esperam. Se acabou a luz, o
+                disjuntor está desarmando ou há risco de curto-circuito, nossa equipe atende 24 horas por dia em Belo
+                Horizonte.</p>
+
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="https://wa.me/5531998955912"
+                    class="btn-whatsapp flex justify-center items-center gap-2 px-10 py-5 rounded-xl font-bold text-xl shadow-2xl text-white">
+                    ⚡ Chamar Eletricista Agora
+                </a>
+                <a href="tel:+5531998955912"
+                    class="btn-outline border-white text-white hover:bg-white hover:text-slate-900 px-10 py-5 rounded-xl font-bold text-xl shadow-xl">
+                    📞 Ligar 24h
+                </a>
+            </div>
+            <p class="mt-6 text-sm text-red-300 font-bold">Plantão Rápido: Chegamos em minutos!</p>
+        </div>
+    </section>
+
+    <!-- BLOCO 2 - AI OVERVIEW -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4 max-w-4xl fade-up">
+            <h2 class="text-3xl font-bold mb-6 text-slate-800 border-l-4 border-yellow-500 pl-4">Quando chamar um
+                eletricista 24 horas em BH?</h2>
+            <div class="bg-slate-50 p-6 rounded-lg border border-slate-200 shadow-sm">
+                <p class="text-lg text-gray-800 font-medium mb-4">Você deve chamar um eletricista 24 horas quando
+                    houver:</p>
+                <ul class="list-disc pl-6 mb-4 text-lg text-slate-700 font-semibold space-y-1">
+                    <li>Queda total de energia no imóvel</li>
+                    <li>Disjuntor desarmando repetidamente</li>
+                    <li>Cheiro de queimado na fiação</li>
+                    <li>Curto-circuito</li>
+                    <li>Chuveiro parando de funcionar repentinamente</li>
+                    <li>Risco de sobrecarga elétrica</li>
+                </ul>
+                <p class="text-lg text-red-700 font-bold bg-white p-3 border-l-4 border-red-600 shadow-sm inline-block">
+                    Em casos emergenciais, o atendimento imediato evita danos maiores e reduz riscos de incêndio.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOCO 3 - O QUE FAZ -->
+    <section class="py-16 bg-slate-900 text-white border-t border-b border-gray-200">
+        <div class="container mx-auto px-4 max-w-4xl fade-up">
+            <h2 class="text-3xl font-bold mb-8 text-yellow-500 text-center">Quais serviços um eletricista 24h realiza?
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8 text-left font-medium">
+                <a href="/eletricista-24-horas-bh/curto-circuito-bh/"
+                    class="block bg-slate-800 p-4 rounded shadow border-t-4 border-yellow-500 hover:border-red-500 hover:shadow-md transition text-white">⚡
+                    Identificação de curto-circuito</a>
+                <a href="/eletricista-residencial-bh/troca-disjuntor-bh/"
+                    class="block bg-slate-800 p-4 rounded shadow border-t-4 border-yellow-500 hover:border-red-500 hover:shadow-md transition text-white">⚡
+                    Troca de disjuntor de emergência</a>
+                <a href="/eletricista-24-horas-bh/quadro-de-luz-com-problema-bh/"
+                    class="block bg-slate-800 p-4 rounded shadow border-t-4 border-yellow-500 hover:border-red-500 hover:shadow-md transition text-white">⚡
+                    Reparo em quadro de luz</a>
+                <a href="/eletricista-residencial-bh/troca-fiacao-antiga-bh/"
+                    class="block bg-slate-800 p-4 rounded shadow border-t-4 border-yellow-500 hover:border-red-500 hover:shadow-md transition text-white">⚡
+                    Substituição de fiação queimada</a>
+                <a href="/eletricista-comercial-bh/aumento-carga-eletrica-cemig-bh/"
+                    class="block bg-slate-800 p-4 rounded shadow border-t-4 border-yellow-500 hover:border-red-500 hover:shadow-md transition text-white">⚡
+                    Adequação de carga elétrica</a>
+                <a href="/eletricista-residencial-bh/instalacao-chuveiro-eletrico-bh/"
+                    class="block bg-slate-800 p-4 rounded shadow border-t-4 border-yellow-500 hover:border-red-500 hover:shadow-md transition text-white">⚡
+                    Instalação emergencial de chuveiro</a>
+                <a href="/eletricista-24-horas-bh/disjuntor-desarmando-bh/"
+                    class="block bg-slate-800 p-4 rounded shadow border-t-4 border-yellow-500 hover:border-red-500 hover:shadow-md transition text-white">⚡
+                    Disjuntor Desarmando Toda Hora</a>
+                <a href="/eletricista-24-horas-bh/falta-de-energia-bh/"
+                    class="block bg-slate-800 p-4 rounded shadow border-t-4 border-yellow-500 hover:border-red-500 hover:shadow-md transition text-white">⚡
+                    Socorro Padrão Sem Luz</a>
+            </div>
+            <div class="text-center font-bold bg-slate-800 p-4 rounded text-yellow-400 border border-slate-700">
+                Todos os serviços seguem normas técnicas e padrões exigidos pela CEMIG.
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOCO 4 - SITUAÇÕES DE EMERGÊNCIA -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4 max-w-4xl fade-up">
+            <h2 class="text-3xl font-bold mb-8 text-center text-slate-800">Principais chamados em Belo Horizonte</h2>
+            <div class="space-y-4 mb-8">
+                <div class="flex items-center space-x-4 bg-red-50 p-4 rounded shadow-sm border border-red-100">
+                    <span
+                        class="bg-red-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-xl">1</span>
+                    <span class="font-bold text-lg text-slate-800">Disjuntor desarmando toda hora</span>
+                </div>
+                <div class="flex items-center space-x-4 bg-red-50 p-4 rounded shadow-sm border border-red-100">
+                    <span
+                        class="bg-red-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-xl">2</span>
+                    <span class="font-bold text-lg text-slate-800">Falta de energia parcial no imóvel</span>
+                </div>
+                <div class="flex items-center space-x-4 bg-red-50 p-4 rounded shadow-sm border border-red-100">
+                    <span
+                        class="bg-red-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-xl">3</span>
+                    <span class="font-bold text-lg text-slate-800">Curto-circuito após chuva</span>
+                </div>
+                <div class="flex items-center space-x-4 bg-red-50 p-4 rounded shadow-sm border border-red-100">
+                    <span
+                        class="bg-red-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-xl">4</span>
+                    <span class="font-bold text-lg text-slate-800">Fiação antiga superaquecendo</span>
+                </div>
+                <div class="flex items-center space-x-4 bg-red-50 p-4 rounded shadow-sm border border-red-100">
+                    <span
+                        class="bg-red-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-xl">5</span>
+                    <span class="font-bold text-lg text-slate-800">Quadro de luz com faíscas</span>
+                </div>
+            </div>
+            <p
+                class="text-lg text-slate-700 bg-yellow-100 p-4 text-center rounded font-medium shadow-sm border border-yellow-300">
+                ⚠ Imóveis antigos em BH frequentemente apresentam sobrecarga por aumento de equipamentos elétricos.
+            </p>
+        </div>
+    </section>
+
+    <!-- BLOCO 5 - BAIRROS -->
+    <section class="py-16 bg-gray-100 border-t border-b border-gray-200">
+        <div class="container mx-auto px-4 max-w-4xl fade-up text-center">
+            <h2 class="text-3xl font-bold mb-4 text-slate-800">Eletricista 24h perto de você</h2>
+            <p class="text-xl mb-6 text-gray-700 font-medium">Atendimento rápido em:</p>
+            <div class="flex flex-wrap justify-center gap-3 mb-8 text-slate-600 font-bold">
+                <span class="px-4 py-2 bg-white border border-gray-300 rounded shadow-sm">Barreiro</span>
+                <span class="px-4 py-2 bg-white border border-gray-300 rounded shadow-sm">Pampulha</span>
+                <span class="px-4 py-2 bg-white border border-gray-300 rounded shadow-sm">Venda Nova</span>
+                <span class="px-4 py-2 bg-white border border-gray-300 rounded shadow-sm">Buritis</span>
+                <span class="px-4 py-2 bg-white border border-gray-300 rounded shadow-sm">Savassi</span>
+                <span class="px-4 py-2 bg-white border border-gray-300 rounded shadow-sm">Centro</span>
+                <span class="px-4 py-2 bg-white border border-gray-300 rounded shadow-sm">Castelo</span>
+                <span class="px-4 py-2 bg-white border border-gray-300 rounded shadow-sm">Santa Efigênia</span>
+                <span class="px-4 py-2 bg-white border border-gray-300 rounded shadow-sm">Cidade Nova</span>
+                <span class="px-4 py-2 bg-white border border-gray-300 rounded shadow-sm">Funcionários</span>
+            </div>
+            <p class="text-2xl mb-8 font-extrabold text-red-600">Chegada rápida para emergências!</p>
+            <a href="https://wa.me/5531998955912"
+                class="btn-primary px-10 py-5 rounded-lg text-xl font-bold shadow-lg inline-block text-slate-900 transition hover:bg-yellow-400">📲
+                Atendimento imediato 24h</a>
+        </div>
+    </section>
+
+    <!-- BLOCO 6 - PASSO A PASSO -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4 max-w-4xl fade-up">
+            <h2 class="text-3xl font-bold mb-8 text-center text-slate-800">Como funciona o atendimento</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Passo 1 -->
+                <div
+                    class="bg-slate-50 border border-gray-200 p-6 rounded-xl shadow-sm relative overflow-hidden text-center z-10">
+                    <div class="absolute -top-6 -right-6 text-9xl text-slate-200 font-black opacity-40 -z-10">1</div>
+                    <p class="font-bold text-lg text-slate-800">Atendimento imediato via WhatsApp ou telefone</p>
+                </div>
+                <!-- Passo 2 -->
+                <div
+                    class="bg-slate-50 border border-gray-200 p-6 rounded-xl shadow-sm relative overflow-hidden text-center z-10">
+                    <div class="absolute -top-6 -right-6 text-9xl text-slate-200 font-black opacity-40 -z-10">2</div>
+                    <p class="font-bold text-lg text-slate-800">Identificação do problema relatado</p>
+                </div>
+                <!-- Passo 3 -->
+                <div
+                    class="bg-slate-50 border border-gray-200 p-6 rounded-xl shadow-sm relative overflow-hidden text-center z-10">
+                    <div class="absolute -top-6 -right-6 text-9xl text-slate-200 font-black opacity-40 -z-10">3</div>
+                    <p class="font-bold text-lg text-slate-800">Deslocamento rápido da equipe</p>
+                </div>
+                <!-- Passo 4 -->
+                <div
+                    class="bg-slate-50 border border-gray-200 p-6 rounded-xl shadow-sm relative overflow-hidden text-center z-10">
+                    <div class="absolute -top-6 -right-6 text-9xl text-slate-200 font-black opacity-40 -z-10">4</div>
+                    <p class="font-bold text-lg text-slate-800">Diagnóstico técnico no local</p>
+                </div>
+                <!-- Passo 5 -->
+                <div
+                    class="bg-slate-50 border border-gray-200 p-6 rounded-xl shadow-sm relative overflow-hidden text-center z-10">
+                    <div class="absolute -top-6 -right-6 text-9xl text-slate-200 font-black opacity-40 -z-10">5</div>
+                    <p class="font-bold text-lg text-slate-800">Orçamento transparente sem surpresas</p>
+                </div>
+                <!-- Passo 6 -->
+                <div
+                    class="bg-slate-50 border border-gray-200 p-6 rounded-xl shadow-sm relative overflow-hidden text-center z-10">
+                    <div class="absolute -top-6 -right-6 text-9xl text-slate-200 font-black opacity-40 -z-10">6</div>
+                    <p class="font-bold text-lg text-slate-800">Execução imediata quando autorizado</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOCO 7 - PREÇO -->
+    <section class="py-16 bg-slate-900 border-t-4 border-yellow-500 text-white">
+        <div class="container mx-auto px-4 max-w-4xl fade-up text-center">
+            <h2 class="text-3xl font-bold mb-6 text-yellow-400">Quanto custa um eletricista 24h em BH?</h2>
+            <p class="text-xl mb-8 font-light max-w-2xl mx-auto">Tudo é combinado na hora, antes do serviço começar.</p>
+            <div class="flex flex-wrap justify-center gap-6 mb-8 text-lg font-medium text-gray-300">
+                <span class="flex items-center"><span class="text-yellow-500 mr-2">📌</span> Tipo de emergência</span>
+                <span class="flex items-center"><span class="text-yellow-500 mr-2">📌</span> Horário do
+                    atendimento</span>
+                <span class="flex items-center"><span class="text-yellow-500 mr-2">📌</span> Complexidade do
+                    reparo</span>
+                <span class="flex items-center"><span class="text-yellow-500 mr-2">📌</span> Necessidade de substituição
+                    de peças</span>
+            </div>
+            <div class="bg-white text-slate-900 font-extrabold p-4 inline-block rounded shadow-lg text-xl">
+                Orçamento informado ANTES da execução. Trabalhamos de forma transparente.
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOCO 8 - PROVA SOCIAL -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4 fade-up">
+            <h2 class="text-3xl font-extrabold mb-10 text-center text-slate-800">Selo de Atendimento de Excelência</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="bg-gray-50 p-8 rounded-xl shadow border border-gray-200">
+                    <div class="flex justify-between items-center mb-4">
+                        <div class="text-yellow-500 font-bold text-2xl">★★★★★</div>
+                        <span
+                            class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">Google</span>
+                    </div>
+                    <p class="italic text-gray-700 mb-4 font-medium">"Precisei de madrugada porque começou a sair faísca
+                        do padrão. Eles chegaram em 30 minutos, cortaram a energia, isolaram e consertaram. Salvaram a
+                        minha noite!"</p>
+                    <p class="font-bold text-slate-800">- Ricardo A. (Sion, BH)</p>
+                </div>
+                <div class="bg-yellow-400 p-8 rounded-xl shadow flex flex-col justify-center items-center text-center">
+                    <span class="block text-5xl mb-4 font-black text-slate-900">24H</span>
+                    <p class="font-extrabold text-2xl mb-2 text-slate-900">Sempre Abertos</p>
+                    <p class="text-slate-800 font-medium">Nossa equipe de plantão não dorme. Finais de semana, feriados
+                        e madrugadas. Pode ligar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOCO 9 - FAQ & CLUSTER INTERNO -->
+    <section class="py-16 bg-slate-50 border-t border-gray-200">
+        <div class="container mx-auto px-4 max-w-4xl fade-up">
+            <h2 class="text-3xl font-bold mb-8 text-center text-slate-800">Dúvidas Frequentes</h2>
+
+            <div class="space-y-4 mb-16 shadow-sm">
+                <div class="accordion-item bg-white border border-gray-200 rounded-lg overflow-hidden">
+                    <button
+                        class="accordion-header w-full text-left p-4 font-bold hover:bg-gray-50 flex justify-between items-center transition focus:outline-none">
+                        Eletricista 24h atende madrugada?
+                        <svg class="w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </button>
+                    <div class="accordion-content px-4 text-gray-700">
+                        Sim. Atendimento 24 horas todos os dias da semana.
+                    </div>
+                </div>
+                <div class="accordion-item bg-white border border-gray-200 rounded-lg overflow-hidden">
+                    <button
+                        class="accordion-header w-full text-left p-4 font-bold hover:bg-gray-50 flex justify-between items-center transition focus:outline-none">
+                        Vocês atendem condomínio?
+                        <svg class="w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </button>
+                    <div class="accordion-content px-4 text-gray-700">
+                        Sim, residências, comércios e condomínios inteiros.
+                    </div>
+                </div>
+                <div class="accordion-item bg-white border border-gray-200 rounded-lg overflow-hidden">
+                    <button
+                        class="accordion-header w-full text-left p-4 font-bold hover:bg-gray-50 flex justify-between items-center transition focus:outline-none">
+                        Em quanto tempo chegam?
+                        <svg class="w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </button>
+                    <div class="accordion-content px-4 text-gray-700">
+                        Depende do bairro, mas mantemos equipes prontas para um atendimento rápido em toda BH e grande
+                        BH.
+                    </div>
+                </div>
+                <div class="accordion-item bg-white border border-gray-200 rounded-lg overflow-hidden">
+                    <button
+                        class="accordion-header w-full text-left p-4 font-bold hover:bg-gray-50 flex justify-between items-center transition focus:outline-none">
+                        Fazem padrão CEMIG?
+                        <svg class="w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </button>
+                    <div class="accordion-content px-4 text-gray-700">
+                        Sim, fazemos adequações e regularizações de entrada de energia conforme exigência técnica da
+                        CEMIG.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Schema FAQPage -->
+            <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "Eletricista 24h atende madrugada em Belo Horizonte?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sim, atendemos em regime de plantão absoluto durante toda a madrugada em qualquer bairro de Belo Horizonte. Nossa equipe está pronta para sair de imediato para resolver quedas de energia, curto-circuitos ou qualquer emergência elétrica grave em casas ou apartamentos."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Vocês atendem condomínio comercial em BH?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sim, atendemos residências, comércios e condomínios inteiros. Possuímos expertise em quadros de distribuição industriais, barramentos de prédios e sistemas de iluminação de emergência."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Em quanto tempo o eletricista chega na minha casa?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Dependendo do bairro em BH e do trânsito local, nosso tempo médio de deslocamento para emergências é de 30 a 50 minutos. Mantemos unidades táticas estrategicamente distribuídas para garantir o socorro elétrico mais rápido da capital mineira."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "O eletricista 24h faz reparo em Padrão CEMIG rejected?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sim, realizamos adequações urgentes e regularizações de entrada de energia conforme todas as exigências técnicas da CEMIG. Se seu relógio foi reprovado ou cortado, resolvemos a conformidade técnica para que a ligação seja restabelecida rapidamente."
+                  }
+                }
+              ]
+            }
+            </script>
+
+            <!-- CLUSTER INTERNO -->
+            <div class="border-t-2 border-slate-200 pt-12">
+                <h3 class="text-2xl font-bold mb-6 text-slate-800 text-center">Tipos de Emergência</h3>
+                <div class="flex flex-wrap justify-center gap-3 text-sm font-semibold">
+                    <a href="/eletricista-24-horas-bh/emergencia-eletrica-bh/"
+                        class="px-4 py-2 border rounded shadow-sm hover:shadow-md hover:bg-slate-900 hover:text-white transition bg-white text-slate-700">Emergência
+                        Geral</a>
+                    <a href="/eletricista-24-horas-bh/falta-de-energia-bh/"
+                        class="px-4 py-2 border rounded shadow-sm hover:shadow-md hover:bg-slate-900 hover:text-white transition bg-white text-slate-700">Falta
+                        de Energia</a>
+                    <a href="/eletricista-24-horas-bh/curto-circuito-bh/"
+                        class="px-4 py-2 border rounded shadow-sm hover:shadow-md hover:bg-slate-900 hover:text-white transition bg-white text-slate-700">Curto-Circuito</a>
+                    <a href="/eletricista-24-horas-bh/disjuntor-desarmando-bh/"
+                        class="px-4 py-2 border rounded shadow-sm hover:shadow-md hover:bg-slate-900 hover:text-white transition bg-white text-slate-700">Disjuntor
+                        Desarmando</a>
+                    <a href="/eletricista-residencial-bh/troca-disjuntor-bh/"
+                        class="px-4 py-2 border rounded shadow-sm hover:shadow-md hover:bg-slate-900 hover:text-white transition bg-white text-slate-700">Troca
+                        de Disjuntor</a>
+                    <a href="/eletricista-24-horas-bh/quadro-de-luz-com-problema-bh/"
+                        class="px-4 py-2 border rounded shadow-sm hover:shadow-md hover:bg-slate-900 hover:text-white transition bg-white text-slate-700">Quadro
+                        com Problema</a>
+                    <a href="/eletricista-residencial-bh/instalacao-chuveiro-eletrico-bh/"
+                        class="px-4 py-2 border rounded shadow-sm hover:shadow-md hover:bg-slate-900 hover:text-white transition bg-white text-slate-700">Chuveiro
+                        Queimado</a>
+                </div>
+
+                <h3 class="text-xl font-bold mt-10 mb-6 text-slate-800 text-center">Nossos Principais Serviços</h3>
+                <div class="flex flex-wrap justify-center gap-6 text-base font-bold text-red-700">
+                    <a href="/eletricista-residencial-bh.html"
+                        class="hover:text-yellow-600 transition underline">Eletricista Residencial BH</a>
+                    <a href="/padrao-cemig-bh.html" class="hover:text-yellow-600 transition underline">Padrão CEMIG
+                        BH</a>
+                    <a href="/eletricista-comercial-bh/aumento-carga-eletrica-cemig-bh/"
+                        class="hover:text-yellow-600 transition underline">Aumento de
+                        Carga BH</a>
+                </div>
+
+                <h3 class="text-xl font-bold mt-10 mb-6 text-slate-800 text-center">Blog e Prevenção Elétrica</h3>
+                <div
+                    class="flex flex-col sm:flex-row flex-wrap justify-center gap-6 text-sm font-medium text-slate-600 text-center">
+                    <a href="/blog/o-que-fazer-quando-acaba-luz-casa.html" class="hover:text-red-600 underline"><span
+                            class="block text-lg">💡</span> O que fazer sem luz?</a>
+                    <a href="/blog/disjuntor-desarmando-e-perigoso.html" class="hover:text-red-600 underline"><span
+                            class="block text-lg">💡</span> Disjuntor desarmando é perigo?</a>
+                    <a href="/blog/como-saber-se-fiacao-esta-sobrecarregada.html"
+                        class="hover:text-red-600 underline"><span class="block text-lg">💡</span> Fiação
+                        sobrecarregada?</a>
+                    <a href="/blog/quando-trocar-quadro-de-luz.html" class="hover:text-red-600 underline"><span
+                            class="block text-lg">💡</span> Quando trocar o quadro?</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOCO FINAL - CTA DE URGÊNCIA -->
+    <section class="py-24 bg-red-700 text-white text-center border-t-8 border-slate-900 relative">
+        <div class="container mx-auto px-4 fade-up z-10 relative">
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-6">Está sem energia agora?</h2>
+            <p class="text-xl max-w-2xl mx-auto mb-10 text-red-100 font-bold leading-relaxed">Não espere o problema
+                piorar.</p>
+
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
+                <a href="https://wa.me/5531998955912"
+                    class="bg-white text-red-800 hover:bg-slate-100 transition px-8 py-5 rounded-xl text-xl font-bold shadow-2xl w-full sm:w-auto flex items-center justify-center">
+                    <span class="mr-2 text-2xl">⚡</span> Falar com Eletricista no WhatsApp
+                </a>
+                <a href="tel:+5531998955912"
+                    class="bg-slate-900 text-white hover:bg-slate-800 transition px-8 py-5 rounded-xl text-xl font-bold shadow-2xl w-full sm:w-auto flex items-center justify-center">
+                    <span class="mr-2 text-2xl">📞</span> Ligar Agora (24h)
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- GLOBAL FOOTER (SEO SILOS & TRUST) -->
+    <footer class="bg-slate-950 text-slate-400 py-16 border-t border-white/10 mt-auto">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+                <!-- Brand Info -->
+                <div class="flex flex-col gap-4">
+                    <a href="/" class="flex items-center gap-2">
+                        <span class="text-2xl text-amber-500">⚡</span>
+                        <span class="text-xl font-black text-white tracking-tight">BH<span
+                                class="text-amber-500">Eletricista</span></span>
+                    </a>
+                    <p class="text-sm leading-relaxed mt-2">Empresa referência em manutenções elétricas prediais,
+                        comerciais e residenciais na região metropolitana de Belo Horizonte.</p>
+                    <div class="flex items-center gap-2 mt-2">
+                        <span
+                            class="w-8 h-8 rounded-full bg-slate-900 flex items-center justify-center text-amber-500 border border-white/5">🔒</span>
+                        <span class="text-xs font-bold text-slate-300">Técnicos Certificados NR-10</span>
+                    </div>
+                </div>
+
+                <!-- Silo 1 -->
+                <div>
+                    <h4 class="text-white font-bold mb-4 uppercase tracking-wider text-sm">Emergência & Residência</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/eletricista-24-horas-bh.html" class="hover:text-amber-500 transition">Atendimento
+                                Plantão 24H</a></li>
+                        <li><a href="/eletricista-residencial-bh.html"
+                                class="hover:text-amber-500 transition">Eletricista Residencial BH</a></li>
+                        <li><a href="/eletricista-residencial-bh/instalacao-chuveiro-eletrico-bh/"
+                                class="hover:text-amber-500 transition">Instalação de Chuveiro</a></li>
+                        <li><a href="/eletricista-24-horas-bh/curto-circuito-bh/"
+                                class="hover:text-amber-500 transition">Socorro: Curto Circuito</a></li>
+                        <li><a href="/eletricista-24-horas-bh/disjuntor-desarmando-bh/"
+                                class="hover:text-amber-500 transition">Disjuntor Desarmando</a></li>
+                    </ul>
+                </div>
+
+                <!-- Silo 2 -->
+                <div>
+                    <h4 class="text-white font-bold mb-4 uppercase tracking-wider text-sm">Comercial & Projetos</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/eletricista-comercial-bh.html" class="hover:text-amber-500 transition">Eletricista
+                                para Lojas (B2B)</a></li>
+                        <li><a href="/eletricista-comercial-bh/instalacao-trifasica-empresarial-bh/"
+                                class="hover:text-amber-500 transition">Instalação Trifásica</a></li>
+                        <li><a href="/eletricista-comercial-bh/aumento-carga-eletrica-cemig-bh/"
+                                class="hover:text-amber-500 transition">Aumento de Carga</a></li>
+                        <li><a href="/padrao-cemig-bh.html" class="hover:text-amber-500 transition">Adequação Padrão
+                                CEMIG</a></li>
+                        <li><a href="/padrao-cemig-bh/instalacao-padrao-trifasico-cemig-bh/"
+                                class="hover:text-amber-500 transition">Padrão CEMIG Trifásico</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact & Local -->
+                <div>
+                    <h4 class="text-white font-bold mb-4 uppercase tracking-wider text-sm">Atendimento Local</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-start gap-3">
+                            <span class="text-amber-500 mt-0.5">📍</span>
+                            <span>Atendimento volante expresso em toda Belo Horizonte e Região.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-amber-500 mt-0.5">📞</span>
+                            <a href="tel:+5531998955912"
+                                class="hover:text-amber-500 transition text-white font-bold">(31) 99895-5912</a>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-amber-500 mt-0.5">✉️</span>
+                            <a href="/contato.html" class="hover:text-amber-500 transition">Fale Conosco</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div
+                class="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-medium">
+                <div
+                    class="flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left text-xs font-medium w-full">
+                    <p>&copy; 2026 BH Eletricista. Todos os direitos reservados.</p>
+                    <div class="flex flex-wrap justify-center gap-2 text-[10px] md:text-xs text-slate-500">
+                        <a href="/termos-de-uso.html" class="hover:text-amber-500 transition">Termos de Uso</a>
+                        <span class="hidden sm:inline">|</span>
+                        <a href="/politicas-de-privacidade.html" class="hover:text-amber-500 transition">Privacidade</a>
+                        <span class="hidden sm:inline">|</span>
+                        <a href="/politica-de-cookies.html" class="hover:text-amber-500 transition">Cookies</a>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <a href="/blog/por-que-disjuntor-desarma.html" class="hover:text-white transition">Blog Técnico</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src=\"/assets/js/main.js?v=100\"></script>
+
+
+
+    <!-- Fixed WhatsApp -->
+    <a href="https://wa.me/5531998955912" target="_blank" class="whatsapp-float" aria-label="Nos contate no WhatsApp">
+        <svg width="32" height="32" viewBox="0 0 24 24">
+            <path
+                d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.066.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-3.825 3.113-6.937 6.937-6.937 3.825.001 6.938 3.113 6.938 6.938-.001 3.825-3.113 6.937-6.938 6.937z" />
+        </svg>
+    </a>
+</body>
+
+</html>
